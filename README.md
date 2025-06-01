@@ -1,4 +1,6 @@
-## Generate keys for assymetric encryption
+# Asymmetric Encryption
+
+## Generate keys
 
 - generate private key
 
@@ -24,7 +26,7 @@ openssl pkcs8 -topk8 -nocrypt -in private_key.pem -outform DER | base64 -w 0
   - handler > [resources](./handler/src/main/resources/keys/pass_encryption_public_key.pem)
   - ui > [public](./ui/public/public_key.pem)
 
-## After cloning, we will need to initialize local git repo in [config-repo](./config-repo/)
+## initialize local in [config-repo](./config-repo/)
 
 ```sh
 git init
