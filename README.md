@@ -26,7 +26,7 @@ openssl pkcs8 -topk8 -nocrypt -in private_key.pem -outform DER | base64 -w 0
   - handler > [resources](./handler/src/main/resources/keys/pass_encryption_public_key.pem)
   - ui > [public](./ui/public/public_key.pem)
 
-## initialize local in [config-repo](./config-repo/)
+## initialize local git in [config-repo](./config-repo/)
 
 ```sh
 git init
